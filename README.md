@@ -6,4 +6,7 @@ This github repository has been created for completing the requirements of the S
 
 ## Blog Posts Can Be Found Here:
 Assignment 1: http://www.nipunjaswal.com/2018/01/the-saga-of-bind-tcp.html
-Assignment 2: 
+
+Assignment 2: http://www.nipunjaswal.com/2018/01/tale-of-the-smallest-shellcode.html
+
+Assignment 3: http://www.nipunjaswal.com/2018/01/art-of-shellcoding-cracking-eggs-with-egghunters.html
