@@ -12,3 +12,7 @@ Assignment 2: http://www.nipunjaswal.com/2018/01/tale-of-the-smallest-shellcode.
 Assignment 3: http://www.nipunjaswal.com/2018/01/art-of-shellcoding-cracking-eggs-with-egghunters.html
 
 Assignment 4: http://www.nipunjaswal.com/2018/02/art-of-shellcoding-multicoder-shellcode.html
+
+Assignment 5: Part(1): http://www.nipunjaswal.com/2018/02/analyzing-metasploit-adduser-payload.html
+	      Part(2): 
+	      Part(3):
