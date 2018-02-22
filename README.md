@@ -15,4 +15,5 @@ Assignment 4: http://www.nipunjaswal.com/2018/02/art-of-shellcoding-multicoder-s
 
 Assignment 5: 
 Part(1): http://www.nipunjaswal.com/2018/02/analyzing-metasploit-adduser-payload.html
+Part(2): http://www.nipunjaswal.com/2018/02/metasploit-ipv6-shellcode-analysis.html
 	    

@@ -1,0 +1,13 @@
+digraph G {
+	//rankdir=LR
+	node [fontname=Courier, labeljust=r];
+	 "0x88b4628" [shape=box, label = "0x00417000 31DB                            xor ebx,ebx\l0x00417002 53                              push ebx\l0x00417003 43                              inc ebx\l0x00417004 53                              push ebx\l0x00417005 6A0A                            push byte 0xa\l0x00417007 89E1                            mov ecx,esp\l0x00417009 6A66                            push byte 0x66\l0x0041700b 58                              pop eax\l"]
+	 "0x88b1c50" [shape=box, style=filled, color=".7 .3 1.0", label = "0x0041700c socket\l"]
+	 "0x88b16a8" [shape=box, label = "0x0041700e 96                              xchg eax,esi\l0x0041700f 99                              cwd \l0x00417010 6800000000                      push dword 0x0\l0x00417015 6800000001                      push dword 0x1000000\l0x0041701a 6800000000                      push dword 0x0\l0x0041701f 6800000000                      push dword 0x0\l0x00417024 6800000000                      push dword 0x0\l0x00417029 52                              push edx\l0x0041702a 6668115C                        push word 0x5c11\l0x0041702e 66680A00                        push word 0xa\l0x00417032 89E1                            mov ecx,esp\l0x00417034 6A1C                            push byte 0x1c\l0x00417036 51                              push ecx\l0x00417037 56                              push esi\l0x00417038 89E1                            mov ecx,esp\l0x0041703a 43                              inc ebx\l0x0041703b 43                              inc ebx\l0x0041703c 6A66                            push byte 0x66\l0x0041703e 58                              pop eax\l"]
+	 "0x88b7da0" [shape=box, style=filled, color=".7 .3 1.0", label = "0x0041703f connect\l"]
+	 "0x88b7e80" [shape=box, label = "0x00417041 89F3                            mov ebx,esi\l0x00417043 B60C                            mov dh,0xc\l0x00417045 B003                            mov al,0x3\l"]
+	 "0x88b4628" -> "0x88b1c50" [style = bold ]
+	 "0x88b1c50" -> "0x88b16a8" [style = bold ]
+	 "0x88b16a8" -> "0x88b7da0" [style = bold ]
+	 "0x88b7da0" -> "0x88b7e80" [style = bold ]
+}
