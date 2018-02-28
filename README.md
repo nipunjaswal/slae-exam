@@ -18,5 +18,5 @@ Part(1): http://www.nipunjaswal.com/2018/02/analyzing-metasploit-adduser-payload
 Part(2): http://www.nipunjaswal.com/2018/02/metasploit-ipv6-shellcode-analysis.html
 Part(3): http://www.nipunjaswal.com/2018/02/metasploit-read-file-shellcode-analysis.html
 
-Assignment 6:
+Assignment 6: http://www.nipunjaswal.com/2018/02/polymorphic-shellcodes.html
 
