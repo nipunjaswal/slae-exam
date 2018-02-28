@@ -13,8 +13,6 @@ _start:
 
 ;   push edx
     push eax
-;   mov dword [esp-4], ecx		; Moving ECX to the TOP of the Stack
-;   sub esp,4				; Stack Adjustment
     
     mov esi, 0x523e3f0a			; Actual Value - 22232425
     add esi, 0x22232425			; Adding the Value
